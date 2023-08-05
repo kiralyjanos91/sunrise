@@ -5,7 +5,6 @@ import {Container, Col, Row} from "react-bootstrap"
 import DataList from "../component/dataList/dataList"
 
 export default function HomePage(){
-
     const rapidApiKey = process.env.REACT_APP_API_KEY
     const [lat , setLat] = useState(51.5)
     const [lon , setlon] = useState(-0.13)
